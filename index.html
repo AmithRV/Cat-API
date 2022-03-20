@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>API-Integration</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="body">
+        <div class="nav-bar">
+            <ul class="container" onchange="change()">
+                <li>
+                    <label for="Order">Order</label>
+                    <div id="order" class="prder" >
+                        <select name="orderSelector" id="orderSelector" >
+                            <option value="random">Random</option>
+                            <option value="desc">Desc</option>
+                            <option value="asc">Asc</option>
+                        </select>
+                    </div>
+                </li>
+
+                <li>
+                    <label for="Type">Type</label>
+                    <div id="type" class="type" >
+                        <select name="typeSelector" id="typeSelector">
+                            <option value="all">All</option>
+                            <option value="gif">gif</option>
+                            <option value="jpg">jpg</option>
+                            <option value="png">png</option>
+                        </select>
+                    </div>
+                </li>
+
+                <li>
+                    <label for="Category">Category</label>
+                    <div id="category" class="category" >
+                        <select name="categorySelector" id="categorySelector" >
+                            <option value="None">None</option>
+                        </select>
+                    </div>
+                </li>
+
+                <li>
+                    <label for="Breed">Breed</label>
+                    <div id="breed" class="breed" >
+                        <select name="breedSelector" id="breedSelector">
+                            <option value="None">None</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="imageCollection" class="imageCollection">
+            <div>
+                <img src="" alt="image_1" id="img1">
+            </div>
+
+            <div>
+                <img src="" alt="image_2" id="img2">
+            </div>
+
+            <div>
+                <img src="" alt="image_3" id="img3">
+            </div>
+
+            <div>
+                <img src="" alt="image_4" id="img4">
+            </div>
+
+            <div>
+                <img src="" alt="image_5" id="img5">
+            </div>
+
+            <div>
+                <img src="" alt="image_6" id="img6">
+            </div>
+
+            <div>
+                <img src="" alt="image_7" id="img7">
+            </div>
+
+            <div>
+                <img src="" alt="image_8" id="img8">
+            </div>
+
+            <div>
+                <img src="" alt="image_9" id="img9">
+            </div>
+        </div>
+        
+        <div class="pagination">1 2 3</div>
+    </div>
+</body>
+</html>
